@@ -1,0 +1,5 @@
+region              = "sa-vinhedo-1"
+compartment_ocid    = "OCID_DO_TENANCY_OU_COMPARTIMENTO"
+subnet_ocid         = "OCID_DA_SUBNET_PUBLICA"
+availability_domain = "CoKB:SA-VINHEDO-1-AD-1"
+vcn_id              = "OCID_DA_VCN"
