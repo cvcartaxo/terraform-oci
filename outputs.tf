@@ -1,11 +1,10 @@
 output "public_ip" {
-  value = oci_core_instance.vm.public_ip
+  value = module.compute.public_ip
 }
-
-output "private_key_path" {
-  value = local_file.private_key.filename
+output "instance_ocid" {
+  value = module.compute.instance_id
 }
-
-output "public_key_path" {
-  value = local_file.public_key.filename
+output "ssh_private_key" {
+  value     = "id_rsa"
+  sensitive = true
 }
