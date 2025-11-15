@@ -1,0 +1,48 @@
+# Terraform
+.terraform/                       # diretório do provider / plugins
+*.tfstate                         # arquivos de state
+*.tfstate.*                       # backups e lockups (ex: .backup)
+crash.log                         # crash logs
+override.tf                       # overrides locais
+override.tf.json
+*_override.tf
+.terraform.tfstate.lock.info      # lock info on some platforms
+
+# Local TF var files (contendo segredos)
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Sensitive files (keys, certs, outputs)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+oci_key.pem
+oci_key.pem.pub
+*.crt
+*.cer
+
+# Local files created by local_file provisioner
+id_rsa
+id_rsa.pub
+oci_key.pem
+oci_key.pub
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Optional: ignore plan files
+*.plan
+
+# Ignore generated docs or archives
+*.zip
+*.tar.gz
