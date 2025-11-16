@@ -10,6 +10,13 @@ Antes de iniciar, certifique-se de ter instalado:
 - **Chave API** configurada em `~/.oci/`
 - Acesso ao tenancy na OCI
 
+## Doc instalação terraform e OCI CLI 
+
+- https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli 
+
+
+- https://docs.oracle.com/pt-br/iaas/private-cloud-appliance/pca/installing-the-oci-cli.htm
+
 ---
 
 ##  Configuração da Autenticação
@@ -30,11 +37,10 @@ subnet_ocid         = "ocid1.subnet.oc1.xxxxx" pegar informação no pianel da O
 availability_domain = "CoKB:SA-VINHEDO-1-AD-1" = Ajuste para sua região.
 vcn_id              = "ocid1.vcn.oc1.xxxxx"
 
-
+```
 ---
 
 ##  Executar o Terraform
-
 
 # Instala  autocompletar 
 terraform -install-autocomplete
