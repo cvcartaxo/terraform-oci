@@ -13,6 +13,10 @@ resource "oci_core_instance" "vm" {
 
   source_details {
     source_type = "image"
-    source_id   = var.image_id
+    source_id   = "ocid1.image.oc1.sa-vinhedo-1.aaaaaaaa4juargthqy2zjibd5wkhkpqmdzphghtkltvm5iatsjnl4v456p6a"
   }
+
+  metadata = {
+    ssh_authorized_keys = tls_private_key.ssh.public_key_openssh
+ }
 }
