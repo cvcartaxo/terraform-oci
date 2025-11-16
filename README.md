@@ -40,24 +40,24 @@ vcn_id              = "ocid1.vcn.oc1.xxxxx"
 ```
 ---
 
-##  Executar o Terraform
+####  Executar o Terraform
 
-# Instala  autocompletar 
+#### Instala  autocompletar 
 terraform -install-autocomplete
 
-# Inicializa do backend.
+#### Inicializa do backend.
 terraform init 
 
-# Gera o planejamento.
-# É obrigatório o uso do arquivo de variáveis 'terraform.tfvars' neste comando.
+#### Gera o planejamento.
+#### É obrigatório o uso do arquivo de variáveis 'terraform.tfvars' neste comando.
 terraform plan -var-file=terraform.tfvars
 
-# Aplica o plano de execução, provisionando os recursos na nuvem.
-# É obrigatório o uso do arquivo de variáveis 'terraform.tfvars' neste comando.
+#### Aplica o plano de execução, provisionando os recursos na nuvem.
+#### É obrigatório o uso do arquivo de variáveis 'terraform.tfvars' neste comando.
 terraform apply -var-file=terraform.tfvars
 
-# Exibe os valores de recursos criados com output.
+#### Exibe os valores de recursos criados com output.
 terraform output
 
-# Destrói todos os recursos gerenciados pelo estado atual do Terraform.
+#### Destrói todos os recursos gerenciados pelo estado atual do Terraform.
 terraform destroy -auto-approve
