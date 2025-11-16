@@ -40,11 +40,11 @@ vcn_id              = "ocid1.vcn.oc1.xxxxx"
 
 ####  Executar o Terraform
 
-#### Instalar  autocompletar 
+#### Instalar autocompletar 
 ```bash
 terraform -install-autocomplete
 ```
-#### Inicializar do backend.
+#### Inicializar e baixar o backend.
 ```bash
 terraform init 
 ```
