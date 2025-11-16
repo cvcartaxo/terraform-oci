@@ -3,7 +3,7 @@
 
 ##  Requisitos
 
-Antes de iniciar, certifique-se de ter instalado:
+Antes de iniciar, certifique-se de ter instalado e configurado:
 
 - **Terraform >= 1.5**
 - **OCI CLI** 
