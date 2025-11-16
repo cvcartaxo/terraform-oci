@@ -38,7 +38,7 @@ vcn_id              = "ocid1.vcn.oc1.xxxxx"
 ```
 ---
 
-####  Executar o Terraform no seguinte diretorio.
+####  Executar o Terraform.
 ```bash
 git clone git@github.com:cvcartaxo/terraform-oci.git
 
